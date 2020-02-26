@@ -3,7 +3,7 @@ export default function ContactForm() {
   return (
     <>
       <header>
-        <h2>Get in touch</h2>
+        <h2>Feedback</h2>
       </header>
       <div className="content">
         <p>

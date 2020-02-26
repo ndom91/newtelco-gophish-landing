@@ -2,7 +2,7 @@
 
 > Based on [Gatsby.js V2 starter template Paradigm Shift](https://anubhavsrivastava.github.io/gatsby-starter-paradigmshift/)
 
-Check online preview [here](https://nt-phishing.netlify.com)
+Check online preview [here](https://nt-gophish.netlify.com)
 
 ## Screenshot
 
@@ -13,7 +13,7 @@ Check online preview [here](https://nt-phishing.netlify.com)
 Make sure that you have the Gatsby CLI program installed:
 
 ```sh
-git clone https://github.com/ndom91/nt-phishing-landing.git
+git clone https://github.com/ndom91/nt-gophish-landing.git
 npm install 
 gatsby develop
 ```
