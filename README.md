@@ -1,12 +1,16 @@
 # Newtelco Phishing Landing Page
 
-> Based on [Gatsby.js V2 starter template Paradigm Shift](https://anubhavsrivastava.github.io/gatsby-starter-paradigmshift/)
+> Based on [Gatsby.js Starer - ParadigmShift](https://anubhavsrivastava.github.io/gatsby-starter-paradigmshift/)
 
-Check online preview [here](https://nt-gophish.netlify.com)
+Simple landing page for colleagues after they've gone through the phishing training. 
+
+Phishing training brought to you by [GoPhish](getgophish.com)
 
 ## Screenshot
 
-![Screenshot](./src/assets/img/demo.png)
+<img src="https://imgur.com/YSPAWfj.png" width="500">
+
+[Online Preview](https://nt-gophish.netlify.com)
 
 ## Install
 
@@ -17,6 +21,7 @@ git clone https://github.com/ndom91/nt-gophish-landing.git
 npm install 
 gatsby develop
 ```
+
 Then you can access it under: `http://localhost:8000`
 
 ### Contribution
@@ -29,4 +34,3 @@ Please create issue or open PR request for contribution.
 
 [![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](LICENSE)
 
-refer `LICENSE` file in this repository.
