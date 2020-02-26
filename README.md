@@ -1,10 +1,10 @@
 # Newtelco Phishing Landing Page
 
-> Based on [Gatsby.js Starer - ParadigmShift](https://anubhavsrivastava.github.io/gatsby-starter-paradigmshift/)
+> Based on [Gatsby.js Starer - ParadigmShift](https://github.com/anubhavsrivastava/gatsby-starter-paradigmshift)
 
 Simple landing page for colleagues after they've gone through the phishing training. 
 
-Phishing training brought to you by [GoPhish](getgophish.com)
+Phishing training brought to you by [GoPhish](https://getgophish.com)
 
 ## Screenshot
 
