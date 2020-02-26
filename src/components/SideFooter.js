@@ -16,12 +16,6 @@ export default function SideFooter() {
             <span>{config.phone}</span>
           </li>
         )}
-        {config.address && (
-          <li>
-            <h3>Address</h3>
-            <span>{config.address}</span>
-          </li>
-        )}
 
         <li>
           <h3>Elsewhere</h3>

@@ -5,89 +5,21 @@ import Footer from '../components/Footer';
 import Header from '../components/Header';
 import SideFooter from '../components/SideFooter';
 
-import heroImage from '../assets/images/pic01.jpg';
-import pic2 from '../assets/images/pic02.jpg';
-import Gallery from '../components/Gallery';
+import heroImage from '../assets/images/newtelco.jpg';
+import celebrate from '../assets/images/celebrate.svg';
+import email from '../assets/images/email.svg';
+import ftc from '../assets/images/ftc.jpg';
+import kaspersky from '../assets/images/kaspersky.png';
+import staysafeonline from '../assets/images/staysafeonline.png';
 import ContactForm from '../components/ContactForm';
-import { Link } from 'gatsby';
 
-const img_set_1 = [
-  {
-    src: require('../assets/images/gallery/fulls/01.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/01.jpg'),
-    title: 'Great Sky',
-    desc: 'Be one with the Universe',
-    full: true,
-  },
-  {
-    src: require('../assets/images/gallery/fulls/02.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/02.jpg'),
-    title: 'High Mountains',
-    desc: 'Be one with the mountains',
-  },
-  {
-    src: require('../assets/images/gallery/fulls/03.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/03.jpg'),
-    title: 'Any time ',
-    desc: 'Be one with the time',
-  },
-  {
-    src: require('../assets/images/gallery/fulls/04.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/04.jpg'),
-    title: 'Any source of light',
-    desc: 'Be one with the light',
-    full: true,
-  },
-];
-const img_set_2 = [
-  {
-    src: require('../assets/images/gallery/fulls/05.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/05.jpg'),
-    title: 'Any Curiosity',
-    desc: 'Be one with the curiosity',
-    full: true,
-  },
-  {
-    src: require('../assets/images/gallery/fulls/06.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/06.jpg'),
-    title: 'Any source of enlightenment',
-    desc: 'Be one with the soul',
-  },
-  {
-    src: require('../assets/images/gallery/fulls/07.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/07.jpg'),
-    title: 'Be in present',
-    desc: 'Be one with the present',
-  },
-];
-const img_set_3 = [
-  {
-    src: require('../assets/images/gallery/fulls/08.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/08.jpg'),
-    title: 'Give away',
-    desc: 'Be one with the empathy',
-  },
-  {
-    src: require('../assets/images/gallery/fulls/09.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/09.jpg'),
-    title: 'Moment',
-    desc: 'Be one with the moment',
-  },
-  {
-    src: require('../assets/images/gallery/fulls/10.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/10.jpg'),
-    title: 'Serenity',
-    desc: 'Be one with the purity',
-    full: true,
-  },
-];
 const IndexPage = () => (
   <Layout>
     <div id="wrapper">
       <section className="intro">
         <Header />
         <div className="content">
-          <span className="image fill" data-position="center">
+          <span className="image fill" data-position="top right">
             <img src={heroImage} alt="" />
           </span>
         </div>
@@ -95,132 +27,125 @@ const IndexPage = () => (
 
       <section id="first">
         <header>
-          <h2>Magna sed nullam nisl adipiscing</h2>
+          <h2>Congrats!</h2>
         </header>
+        <section>
+          <header>
+            <h3>On average, a cyber attack costs small businesses $53,987.<a className="toc-link" href="#1">(1)</a></h3>
+          </header>
+        </section>
         <div className="content">
           <p>
-            <strong>Lorem ipsum dolor</strong> sit amet consectetur adipiscing
-            elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad
-            litora torquent per conubia nostra, per inceptos himenaeos. Etiam
-            tristique libero eu nibh porttitor amet fermentum. Nullam venenatis
-            erat id vehicula ultrices sed ultricies condimentum. Magna sed etiam
-            consequat, et lorem adipiscing sed nulla. Volutpat nisl et tempus et
-            dolor libero, feugiat magna tempus, sed et lorem adipiscing.
+            First of all, <strong>congrats!</strong> Even if you entered your credentials on the last screen, you've statistically survived approximately 4.8 phishing emails / week in 2019! <a className="toc-link" href="#1">(1)</a> That deserves a pat on the back!
           </p>
           <span className="image main">
-            <img src={pic2} alt="" />
+            <img src={celebrate} alt="" style={{ width: '70%', margin: '0 auto' }} />
           </span>
         </div>
       </section>
 
       <section>
         <header>
-          <h2>Feugiat consequat tempus ultrices</h2>
+          <h2>Common Tricks</h2>
         </header>
         <div className="content">
           <p>
-            <strong>Etiam tristique libero</strong> eu nibh porttitor amet
-            fermentum. Nullam venenatis erat id vehicula ultrices sed ultricies
-            condimentum.
+            People looking to phish you are <strong>usually not very smart</strong>, and so re-use the same old tricks over and over. Once you have an eye for it, you will find it funny how often you stumble upon these things online.
+          </p>
+          <p>
+            Some of the most common phishing emails / text messages...
+          </p>
+          <ul className="feature-tricks">
+            <li>say they’ve noticed some suspicious activity or log-in attempts</li>
+            <li>claim there’s a problem with your account or your payment information </li>
+            <li>say you must confirm some personal information</li>
+            <li> include a fake invoice </li>
+            <li>want you to click on a link to make a payment</li>
+            <li>say you’re eligible to register for a government refund </li>
+            <li>offer a coupon for free stuff </li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <header>
+          <h2>Tips</h2>
+        </header>
+        <div className="content">
+          <p>
+            In general, the saying goes, if you're unsure about anything - DONT CLICK IT! Its always best to double check first!
           </p>
           <ul className="feature-icons">
-            <li className="icon fa-laptop">Consequat tempus</li>
-            <li className="icon fa-bolt">Etiam adipiscing</li>
-            <li className="icon fa-signal">Libero nullam</li>
-            <li className="icon fa-gear">Blandit condimentum</li>
-            <li className="icon fa-map-marker">Lorem ipsum dolor</li>
-            <li className="icon fa-code">Nibh amet venenatis</li>
+            <li className="icon fa-link">Hover over any link to see where it really goes!</li>
+            <li className="icon fa-lock">Make sure your browser is showing the "Lock" icon in the URL bar for any sensitive sites.</li>
+            <li className="icon fa-question">If you're even a bit unsure, feel free to ask your IT colleagues. We don't bite ;)</li>
+            <li className="icon fa-laptop">Set your phone / computer to update automatically</li>
+            <li className="icon fa-male">Setup multi-factor authentification on your sensitive accounts</li>
+            <li className="icon fa-key">Never <strong>ever</strong> give out your password(s) over email!</li>
           </ul>
-          <p>
-            Vehicula ultrices sed ultricies condimentum. Magna sed etiam
-            consequat, et lorem adipiscing sed nulla. Volutpat nisl et tempus et
-            dolor libero, feugiat magna tempus, sed et lorem adipiscing.
-          </p>
+          <span className="image main">
+            <img src={email} alt="" style={{ width: '70%', margin: '0 auto' }} />
+          </span>
         </div>
       </section>
 
       <section>
         <header>
-          <h2>Ultrices erat magna sed condimentum</h2>
+          <h2>Further Reading</h2>
         </header>
         <div className="content">
           <p>
-            <strong>Integer mollis egestas</strong> nam maximus erat id euismod
-            egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam.
+            If you are interested, I've collected a few noteworthy links below for further reading...
           </p>
 
           <section>
             <header>
-              <h3>Erat aliquam</h3>
+              <h3>1 in 99 Emails are Phishing!</h3>
               <p>
-                Vehicula ultrices dolor amet ultricies et condimentum. Magna sed
-                etiam consequat, et lorem adipiscing sed dolor sit amet,
-                consectetur amet do eiusmod tempor incididunt ipsum suspendisse
-                ultrices gravida.
+                According to Avanan’s phishing statistics, 1 in every 99 emails is a phishing attack. And this amounts to 4.8 emails per employee in a five-day work week. <a className="toc-link" href="#1">(1)</a>
               </p>
             </header>
-            <div className="content">
-              <Gallery images={img_set_1} />
+            <div className="content more-reading">
+              <p>
+                <img src={ftc} alt="FTC Logo"></img>
+                <a href="https://www.consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scams">
+                  <strong>FTC.gov</strong> How to Recognize and Avoid Phishing Scams
+                </a>
+              </p>
+              <p>
+                <img src={kaspersky} alt="Kaspersky Logo"></img>
+                <a href="https://encyclopedia.kaspersky.ru/knowledge/what-is-phishing/">
+                  <strong>Kaspersky</strong> Что такое «фишинг»
+                </a>
+              </p>
+              <p>
+                <img src={staysafeonline} alt="StaySafeOnline Logo"></img>
+                <a href="https://staysafeonline.org/stay-safe-online/online-safety-basics/spam-and-phishing/">
+                  <strong>StaySafeOnline</strong> Online Spam and Phishing Basic
+                </a>
+              </p>
+
             </div>
           </section>
 
-          <section>
-            <header>
-              <h3>Nisl consequat</h3>
-              <p>
-                Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-                aliquam sed facilisis ante interdum congue. Integer mollis, nisl
-                amet convallis, porttitor magna ullamcorper, amet mauris. Ut
-                magna finibus nisi nec lacinia ipsum maximus.
-              </p>
-            </header>
-            <div className="content">
-              <div className="gallery">
-                <Gallery images={img_set_2} />
-              </div>
-            </div>
-          </section>
-
-          <section>
-            <header>
-              <h3>Lorem gravida</h3>
-              <p>
-                Proin aliquam facilisis ante interdum. Sed nulla amet lorem
-                feugiat tempus aenean ornare velit lacus, ac varius sed enim
-                lorem ullamcorper dolore. ac varius enim lorem ullamcorper
-                dolore. Proin aliquam facilisis.
-              </p>
-            </header>
-            <div className="content">
-              <div className="gallery">
-                <Gallery images={img_set_3} />
-              </div>
-            </div>
-          </section>
         </div>
       </section>
 
       <section>
         <header>
-          <h2>Duis sed adpiscing veroeros amet</h2>
+          <h2>Sources</h2>
         </header>
         <div className="content">
-          <p>
-            <strong>Elements</strong> This starter contains all elements for a
-            page. Check it out
+          <p id="1" style={{ fontSize: '16px' }}>
+            <ul style={{ listStyle: 'none' }}>
+              <li>
+                (1) <a href="https://smallbiztrends.com/2019/07/phishing-statistics.html">https://smallbiztrends.com/2019/07/phishing-statistics.html</a>
+              </li>
+              <li>
+                (2) <a href="https://www.consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scams">https://www.consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scams</a>
+              </li>
+            </ul>
           </p>
-          <ul className="actions">
-            <li>
-              <Link to="/Elements" className="button primary large">
-                Goto Elements Page
-              </Link>
-            </li>
-            {/* <li>
-              <a href="/#" className="button large">
-                Learn More
-              </a>
-            </li> */}
-          </ul>
         </div>
       </section>
 
@@ -231,7 +156,7 @@ const IndexPage = () => (
 
       <Footer />
     </div>
-  </Layout>
+  </Layout >
 );
 
 export default IndexPage;

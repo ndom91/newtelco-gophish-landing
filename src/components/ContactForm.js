@@ -7,11 +7,9 @@ export default function ContactForm() {
       </header>
       <div className="content">
         <p>
-          <strong>Auctor commodo</strong> interdum et malesuada fames ac ante
-          ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor
-          mattis sagittis.
+          If you have any other <strong>questions</strong>, or <strong>feedback</strong> regarding this year's phishing training, please send them in using the form below.
         </p>
-        <form>
+        <form netlify>
           <div className="fields">
             <div className="field half">
               <input type="text" name="name" id="name" placeholder="Name" />

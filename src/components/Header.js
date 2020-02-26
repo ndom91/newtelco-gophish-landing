@@ -4,7 +4,7 @@ import config from '../../config';
 
 export default function Header() {
   return (
-    <header>
+    <header style={{ color: '#fff' }}>
       <h1>{config.heading}</h1>
       <p>{config.subHeading}</p>
       <ul className="actions">
